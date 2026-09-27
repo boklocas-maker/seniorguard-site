@@ -1,0 +1,38 @@
+:root {
+    --cor-primaria-clara: #b9f5cf;
+    --cor-primaria-base: #126b45;
+    --cor-primaria-escura: #083b2b;
+    --cor-secundaria-clara: #ffffff;
+    --cor-secundaria-base: #8fcfe6;
+    --cor-secundaria-escura: #0fadf7;
+    --cor-terciaria-erro: #c62828;
+    --cor-terciaria-fundo: #f4fbf7;
+    --fonte-base: "TASA Explorer", sans-serif;
+    --fonte-logo: "Limelight", sans-serif;
+    --tamanho-pequeno: .75rem;
+    --tamanho-base1: 1rem;
+    --tamanho-base2: 1.3rem;
+    --tamanho-titulo: 2rem; 
+    --tamanho-logo1: 3rem;
+    --tamanho-logo2: 6rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, input, textarea, button {
+    font-family: var(--fonte-base);
+    font-size: var(--tamanho-base1);
+}
+
+h1 {
+    font-family: var(--fonte-base);
+    font-size: var(--tamanho-titulo);
+}
+
+a, button {
+    transition: .2s ease;
+}

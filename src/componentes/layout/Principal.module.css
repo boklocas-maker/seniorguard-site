@@ -1,0 +1,18 @@
+.gridConteiner {
+    background-color: var(--cor-terciaria-fundo);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
